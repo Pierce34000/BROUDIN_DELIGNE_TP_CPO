@@ -3,7 +3,7 @@ TP0 Exercice 1
 Broudin
 DELIGNE
 */
-package ex1;
+package tp0_ex1;
 
 import java.util.Scanner;
 
