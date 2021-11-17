@@ -1,14 +1,6 @@
-/*
-* TP2 - 7 octobre 2020
- * Perello - Lamassiaude
-* Exercice 2 - Convertisseur
-*/
+
 package tp2_convertisseur_deligne_broudin;
- 
-/**
-*
-* @author alamassi
-*/
+
 public class Convertisseur {
     //Ajout de l'attribut:
     int nbConversions;

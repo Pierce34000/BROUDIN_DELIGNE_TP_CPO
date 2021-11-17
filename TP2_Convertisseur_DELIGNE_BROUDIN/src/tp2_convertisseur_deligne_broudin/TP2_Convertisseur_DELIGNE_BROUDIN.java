@@ -1,16 +1,12 @@
-/*
-* TP2 - 7 octobre 2020
- * Perello - Lamassiaude
-* Exercice 2
+/*TP2 Ex3
+BROUDIN 
+DELIGNE
 */
 package tp2_convertisseur_deligne_broudin;
  
 import java.util.Scanner;
  
-/**
-*
-* @author alamassi
-*/
+
 public class TP2_Convertisseur_DELIGNE_BROUDIN {
  
     /**
