@@ -1,13 +1,18 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ SP4
+DELIGNE
+BROUDIN
  */
 package sp4_console_deligne_broudin;
 
-/**
- *
- * @author piercebroudin
- */
+
 public class Jeton {
+    String couleur;
     
+    public Jeton (String colour) {
+        couleur = colour;   
+    }
+    public String lireCouleur () {
+        return couleur;
+    }
 }
