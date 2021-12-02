@@ -9,15 +9,25 @@ package sp4_console_deligne_broudin;
 public class Grille {
     Cellule[][]CellulesJeu = new Cellule [6][7];
     
-    public Grille() {
-        for (int i = 5; i >= 0; i--) {
-            for (int j = 6; j >=0; i--) {
-                CellulesJeu[i][j] = new Cellule();
+    public boolean ajouterJetonsDansColonne(Jeton JC, int k) {
+        for (int i = 5; i < 6; i++) {
+            if (CellulesJeu[i][k]).recupererJeton() == null) {
+            CellulesJeu[i][k].affecterJeton(JC);
+            return true;
+            
             }
-        }        
+        }
+        return false;
     }
+    
 
-    public boolean ajouterJ       
+    public boolean etreRemplie(){
+        for (int i=5; i<6; i++){
+            for(int k=0; i<7;i++){
+                if Cellules[i][k].recupererJeton()==null {
+            }
+        }
+    }    
         
     
 }
